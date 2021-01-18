@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "cities",
+  "collectionName": "weathers",
   "info": {
-    "name": "Cities",
-    "description": ""
+    "name": "weather"
   },
   "options": {
     "increments": true,
@@ -11,11 +10,8 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "temperature": {
       "type": "string"
-    },
-    "weather": {
-      "model": "weather"
     }
   }
 }
